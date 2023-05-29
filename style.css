@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+}
+
+
+.menu{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000;
+}
+
+.logo{
+    font-size: 25px;
+    color: #1795b8;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+}
+
+ .menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    color: #1d1d1d;
+    display: block;
+
+}
+
+.menu .navbar ul li a:hover{
+    color: #3b3b3b;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+
+}
+
+.submenu{
+    position: relative;
+
+
+}
+
+.submenu #carrito{
+    display: none; 
+
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1; 
+    background-color: #77777797;
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(50, 47, 47);
+
+}
+
+
+ table{
+    width: 100%;
+
+}
+
+th,td{
+    color: white;
+
+}
+
+.borrar{
+    background-color: #ff9000;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.bg{
+    position: absolute;
+    
+    width: 700px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header-txt{
+    width: 50%;
+    margin-right: 50px;
+
+}
+
+.header-txt h1{
+    font-size: 55px;
+    line-height: 65px;
+    color: #1d1d1d;
+    margin-bottom: 35px;
+
+
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: #5b5b5b;
+    margin-bottom: 45px;
+
+
+}
+
+.header-txt span{
+    color: #1795b8;
+
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 25px;
+    background-color: #1795b8;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgb(33, 30, 30);
+
+
+}
+
+.btn-1:hover{
+    background-color: #8194a0;
+
+
+}
+
+.header-img{
+    width: 50%;
+    text-align: right;
+}
+
+.header-img img{
+    width: 650px;
+    
+}  
+
+#img-carrito{
+    color: #1795b8;
+    background-color: #1795b8;
+}
+
