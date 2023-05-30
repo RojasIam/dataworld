@@ -115,7 +115,7 @@ th,td{
 }
 
 .borrar{
-    background-color: #ff9000;
+    background-color: #1795b8;
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -230,7 +230,7 @@ p{
 .datos-1{
     display: flex;
     align-items: center;
-    background-color: #ff9000;
+    background-color: #1795b8;
     padding: 10px;
     border-radius: 15px;
     width: 200px;
@@ -308,7 +308,7 @@ p{
 }
 
 .box {
-    border-top: 2px solid #ff9000;
+    border-top: 2px solid #1795b8;
     padding: 20px;
     border-radius: 15px;
     z-index: 1000;
@@ -345,13 +345,13 @@ p{
 
 .precio{
     font-size: 15px;
-    color: #ff9000;
+    color: #1795b8;
 
 
 }
 
 .btn-2 {
-    background-color: #ff9000;
+    background-color: #1795b8;
     margin-top: 50px;
     display: inline-block;
     padding: 13px 35px;
@@ -364,7 +364,7 @@ p{
 }
 
 .btn-2:hover{
-    background-color: #ff9000;
+    background-color: #232220;
 
 
 }
@@ -372,7 +372,7 @@ p{
 .btn-3{
     display: inline-block;
     padding: 5px 25px;
-    background-color: #ff9000;
+    background-color: #1795b8;
     color: white;
     border-radius: 10px;
 
@@ -380,7 +380,7 @@ p{
 }
 
 .btn-3:hover{
-    background-color: #ff9000;
+    background-color: #464543;
 
 
 } 
@@ -423,7 +423,7 @@ p{
 
 .footer{
     padding: 50px 0;
-    background-color: #ff9000;
+    background-color: #1795b8;
 
 
 }
@@ -448,6 +448,8 @@ p{
     margin-bottom: 10px;
 
 }
+
+
 
 
 
