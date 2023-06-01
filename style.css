@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(/images/backmain.png);
 }
 
 .container {
@@ -197,7 +198,7 @@ th,td{
 
 #img-carrito{
     color: #1795b8;
-    background-color: #1795b8;
+    
 }
 
 .datos{
