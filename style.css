@@ -133,6 +133,7 @@ th,td{
 }
 
 .header-content{
+    margin-top: 100px;
     display: flex;
     align-items: center;
 
@@ -292,99 +293,7 @@ p{
 
 /*section 3*/
 
-.products{
-    padding: 0 0 50px 0;
-    text-align: center;
 
-
-}
-
- .box-container{
-    margin-top: 55px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    gap: 20px;
-
-
-}
-
-.box {
-    border-top: 2px solid #1795b8;
-    padding: 20px;
-    border-radius: 15px;
-    z-index: 1000;
-    box-shadow: 0 5px 10px rgb(23, 22, 22);
-    display: none;
-}
-
-.box:nth-child(1),
-.box:nth-child(2),
-.box:nth-child(3),
-.box:nth-child(4){
-    display: inline-block;
-
-}
-
-.box img{
-
-    width: 120px;
-
-}
-
-.product-txt h3{
-    font-size: 20px;
-    color: #1d1d1d;
-    margin-bottom: 10px;
-
-}
-
-.product-txt p{
-    margin-bottom: 25px;
-
-
-}
-
-.precio{
-    font-size: 15px;
-    color: #1795b8;
-
-
-}
-
-.btn-2 {
-    background-color: #1795b8;
-    margin-top: 50px;
-    display: inline-block;
-    padding: 13px 35px;
-    border-radius: 25px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 5px 10px rgb(42, 40, 40);
-
-}
-
-.btn-2:hover{
-    background-color: #232220;
-
-
-}
-
-.btn-3{
-    display: inline-block;
-    padding: 5px 25px;
-    background-color: #1795b8;
-    color: white;
-    border-radius: 10px;
-
-
-}
-
-.btn-3:hover{
-    background-color: #464543;
-
-
-} 
 
 /*section for*/
 
@@ -611,7 +520,7 @@ p{
      }
 
      .app-img{
-
+        margin-top: 50px;
         width: 100%;
         text-align: center;
      }
